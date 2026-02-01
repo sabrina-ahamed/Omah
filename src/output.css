@@ -348,6 +348,9 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#20\] {
+    background-color: #20;
+  }
   .bg-\[\#203239\] {
     background-color: #203239;
   }
@@ -356,6 +359,9 @@
   }
   .bg-\[\#FF7527\] {
     background-color: #FF7527;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-\[\#ffff\] {
     background-color: #ffff;
@@ -381,6 +387,12 @@
   .py-\[23px\] {
     padding-block: 23px;
   }
+  .py-\[24px\] {
+    padding-block: 24px;
+  }
+  .py-\[31px\] {
+    padding-block: 31px;
+  }
   .py-\[48px\] {
     padding-block: 48px;
   }
@@ -389,6 +401,9 @@
   }
   .py-\[100px\] {
     padding-block: 100px;
+  }
+  .py-\[px\] {
+    padding-block: px;
   }
   .pt-\[14px\] {
     padding-top: 14px;

@@ -216,8 +216,17 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-\[1\] {
+    margin-top: 1;
+  }
   .mt-\[8px\] {
     margin-top: 8px;
+  }
+  .mt-\[16\] {
+    margin-top: 16;
+  }
+  .mt-\[16px\] {
+    margin-top: 16px;
   }
   .mt-\[20px\] {
     margin-top: 20px;
@@ -233,6 +242,9 @@
   }
   .mt-\[257px\] {
     margin-top: 257px;
+  }
+  .mb-\[8px\] {
+    margin-bottom: 8px;
   }
   .mb-\[16px\] {
     margin-bottom: 16px;
@@ -313,6 +325,9 @@
   .justify-between {
     justify-content: space-between;
   }
+  .gap-\[24px\] {
+    gap: 24px;
+  }
   .gap-\[48px\] {
     gap: 48px;
   }
@@ -343,6 +358,9 @@
   }
   .bg-\[\#\] {
     background-color: #;
+  }
+  .bg-\[\#ffff\] {
+    background-color: #ffff;
   }
   .bg-transparent {
     background-color: transparent;
@@ -420,6 +438,15 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .text-\[\#2\] {
+    color: #2;
+  }
+  .text-\[\#20\] {
+    color: #20;
+  }
+  .text-\[\#2032\] {
+    color: #2032;
   }
   .text-\[\#203239\] {
     color: #203239;

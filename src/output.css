@@ -178,9 +178,6 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
-  .top-2 {
-    top: calc(var(--spacing) * 2);
-  }
   .top-2\/4 {
     top: calc(2/4 * 100%);
   }
@@ -192,12 +189,6 @@
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
-  }
-  .right-\[14px\] {
-    right: 14px;
-  }
-  .bottom-\[14px\] {
-    bottom: 14px;
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
@@ -214,14 +205,8 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .mt-\[2\] {
-    margin-top: 2;
-  }
   .mt-\[8px\] {
     margin-top: 8px;
-  }
-  .mt-\[14px\] {
-    margin-top: 14px;
   }
   .mt-\[16px\] {
     margin-top: 16px;
@@ -231,9 +216,6 @@
   }
   .mt-\[24px\] {
     margin-top: 24px;
-  }
-  .mt-\[27\] {
-    margin-top: 27;
   }
   .mt-\[27px\] {
     margin-top: 27px;
@@ -277,9 +259,6 @@
   .flex {
     display: flex;
   }
-  .table {
-    display: table;
-  }
   .h-\[30px\] {
     height: 30px;
   }
@@ -307,15 +286,9 @@
   .max-w-\[1164px\] {
     max-width: 1164px;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .translate-y-\[-50\%\] {
     --tw-translate-y: -50%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .resize {
-    resize: both;
   }
   .items-center {
     align-items: center;
@@ -348,9 +321,6 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-\[\#20\] {
-    background-color: #20;
-  }
   .bg-\[\#203239\] {
     background-color: #203239;
   }
@@ -359,9 +329,6 @@
   }
   .bg-\[\#FF7527\] {
     background-color: #FF7527;
-  }
-  .bg-\[\#\] {
-    background-color: #;
   }
   .bg-\[\#ffff\] {
     background-color: #ffff;
@@ -387,9 +354,6 @@
   .py-\[23px\] {
     padding-block: 23px;
   }
-  .py-\[24px\] {
-    padding-block: 24px;
-  }
   .py-\[31px\] {
     padding-block: 31px;
   }
@@ -401,9 +365,6 @@
   }
   .py-\[100px\] {
     padding-block: 100px;
-  }
-  .py-\[px\] {
-    padding-block: px;
   }
   .pt-\[14px\] {
     padding-top: 14px;
@@ -472,13 +433,6 @@
   }
   .text-white {
     color: var(--color-white);
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .after\:absolute {
     &::after {
@@ -552,11 +506,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-content {
   syntax: "*";
   initial-value: "";
@@ -571,7 +520,6 @@
       --tw-border-style: solid;
       --tw-leading: initial;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-content: "";
     }
   }
